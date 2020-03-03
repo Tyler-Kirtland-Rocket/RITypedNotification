@@ -55,8 +55,8 @@ NotificationCenter.default.post(MyNotification(value: "foobar"), from: self)
   s.source = { :git => "https://github.com/rocketinsights/RITypedNotification.git", :tag => "#{s.version}" }
   s.license = { :type => "MIT" }
 
-  spec.ios.deployment_target  = "11.0"
-  spec.osx.deployment_target  = "10.15"
+  s.ios.deployment_target  = "11.0"
+  s.osx.deployment_target  = "10.15"
   s.swift_version = "5.0"
 
   s.source_files = "Sources/TypedNotification/**/*.swift"
